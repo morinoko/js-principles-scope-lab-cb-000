@@ -14,5 +14,11 @@ function setBestCustomer() {
 
 function overwriteBestCustomer() {
   // See the consequences of declaring a variable in global scope
-  bestCustomer = 'maybe bob';
+  bestCustomer = 'maybe bob'; // we would want this to stay in the function scope!
+}
+
+const leastFavoriteCustomer = "jim";
+
+changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = "bob";
 }
