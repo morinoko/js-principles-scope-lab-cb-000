@@ -2,6 +2,6 @@
 // scoping issues (it is NOT block scoped)
 var customerName = 'bob';
 
-function upperCaseCustomerName(name) {
-  return name.toUpperCase();
+function upperCaseCustomerName() {
+  customerName.toUpperCase();
 }
