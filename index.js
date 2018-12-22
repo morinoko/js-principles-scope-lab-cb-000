@@ -17,8 +17,3 @@ function overwriteBestCustomer() {
   bestCustomer = 'maybe bob'; // we would want this to stay in the function scope!
 }
 
-const leastFavoriteCustomer = "jim";
-
-changeLeastFavoriteCustomer() {
-  leastFavoriteCustomer = "bob";
-}
