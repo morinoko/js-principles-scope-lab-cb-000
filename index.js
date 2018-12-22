@@ -11,3 +11,8 @@ function setBestCustomer() {
   // it ends up in global scope
   bestCustomer = 'not bob';
 }
+
+function overwriteBestCustomer() {
+  // See the consequences of declaring a variable in global scope
+  bestCustomer = 'maybe bob';
+}
