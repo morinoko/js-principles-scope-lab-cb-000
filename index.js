@@ -5,3 +5,9 @@ var customerName = 'bob';
 function upperCaseCustomerName() {
   customerName = customerName.toUpperCase();
 }
+
+function setBestCustomer() {
+  // NOT a good idea to declare a variable like this, because
+  // it ends up in global scope
+  bestCustomer = 'not bob';
+}
