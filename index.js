@@ -17,3 +17,8 @@ function overwriteBestCustomer() {
   bestCustomer = 'maybe bob'; // we would want this to stay in the function scope!
 }
 
+const leastFavoriteCustomer = 'jim';
+
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = "bob";
+}
